@@ -1,0 +1,123 @@
+<!-- Ahmed Mohamed El-Baz Mohamed Arafa - Student ID: 225101154 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahmed Mohamed El-Baz | Personal Profile</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header Section with Title and Navigation Bar -->
+  <header class="site-header">
+    <div class="header-banner">
+      <h1 class="main-title">Ahmed Mohamed El-Baz Mohamed Arafa</h1>
+      <p class="subtitle">Computer Science Student &bull; Faculty of Computers &bull; Student ID: 225101154 &bull; FT-WEB-101</p>
+    </div>
+
+    <nav class="navbar">
+      <div class="nav-brand">Ahmed Mohamed El-Baz</div>
+      <div class="nav-actions">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="theme-toggle" class="btn-toggle" type="button" aria-label="Toggle dark mode">Toggle Dark Mode</button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- About Section with Profile Picture and Bio -->
+    <section id="about" class="section about-section">
+      <div class="container about-container">
+        <div class="profile-img-container">
+          <img src="images/me.jpg" alt="Photo of Ahmed Mohamed El-Baz" class="profile-img">
+        </div>
+        <div class="about-info">
+          <h2>About Me</h2>
+          <p>
+            Welcome to my personal profile page! I am a passionate Computer Science student at the Faculty of Computers (Student ID: <strong>225101154</strong>), completing Field Training I (FT-WEB-101, Task 1).
+          </p>
+          <p>
+            I am dedicated to exploring modern software engineering, computer algorithms, and interactive web architecture. My objective is to build clean, accessible, and performant digital solutions while deepening my understanding of core computational principles.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills and Hobbies Section (3 Cards in One Row) -->
+    <section id="skills" class="section skills-section">
+      <div class="container">
+        <h2 class="section-heading">Skills &amp; Interests</h2>
+        <div class="cards-wrapper">
+          <article class="card">
+            <div class="card-badge">01</div>
+            <h3>Programming</h3>
+            <p>
+              Strong grasp of object-oriented design and algorithmic logic using modern programming languages including C++, Java, and Python.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="card-badge">02</div>
+            <h3>Web Development</h3>
+            <p>
+              Crafting semantic, accessible, and responsive user interfaces using clean HTML5, modern CSS3 styling, and modular JavaScript.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="card-badge">03</div>
+            <h3>Problem Solving</h3>
+            <p>
+              Tackling challenging analytical problems, designing efficient data structures, and optimizing algorithmic time and space complexity.
+            </p>
+          </article>
+        </div>
+
+        <div class="skills-languages">
+          <span class="language-badge">German: b2</span>
+          <span class="language-badge">Dutch: a2</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="section contact-section">
+      <div class="container form-container">
+        <h2 class="section-heading">Get in Touch</h2>
+        <p id="visitor-greeting" class="greeting-message">Hello, visitor! Welcome to my profile.</p>
+
+        <form id="contact-form" class="profile-form" novalidate>
+          <div class="form-group">
+            <label for="visitor-name">Name</label>
+            <input type="text" id="visitor-name" name="name" placeholder="Type your name here">
+          </div>
+
+          <div class="form-group">
+            <label for="visitor-email">Email</label>
+            <input type="email" id="visitor-email" name="email" placeholder="name@example.com">
+            <p id="email-error-msg" class="error-message" aria-live="polite"></p>
+          </div>
+
+          <button type="submit" id="submit-button" class="btn-submit">Submit</button>
+          <p id="form-success-msg" class="success-message" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top-btn" class="back-to-top" type="button" aria-label="Back to top">↑</button>
+  </main>
+
+  <!-- Footer with Exactly One Copyright Line -->
+  <footer class="site-footer">
+    <p>&copy; 2026 Ahmed Mohamed El-Baz Mohamed Arafa. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
